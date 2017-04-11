@@ -262,7 +262,7 @@ def mysteryMansion():
   kitchen.setWest(library)
   basement.setUp(library)
   
-  #get character name
+  #get character name##
   playerName = requestString("Please enter your character's name:")
   #create player object
   player = Player(playerName, porch)
